@@ -146,7 +146,7 @@ allIpls = {
 		coords={{110.4, -744.2, 45.7496}}
 	},
 
-	-- 			Counterfeit Cash Factory	
+	-- 			Counterfeit Cash Factory
 
 	{
 		interiorsProps = {
@@ -187,7 +187,7 @@ allIpls = {
 		coords={{1121.897, -3195.338, -40.4025}}
 	},
 
-	-- 			CLUBHOUSE 1 
+	-- 			CLUBHOUSE 1
 
 	{
 		interiorsProps = {
