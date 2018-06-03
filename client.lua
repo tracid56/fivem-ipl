@@ -2,7 +2,9 @@ Citizen.CreateThread(function()
 	LoadMpDlcMaps() -- required to load heist ipl?
 	EnableMpDlcMaps(true) -- not needed?
 	RequestAllIpls()
+end)
 
+Citizen.CreateThread(function()
 	for _,ipl in pairs(allIpls) do
 		loadInt(ipl.coords, ipl.interiorsProps)
 	end
@@ -171,120 +173,120 @@ function RequestAllIpls()
 	-- Some have multiple choices, in that case pick one
 	--
 
+	--
 	-- Arcadius Business Centre: -141.2896, -620.9618, 168.8204
-	RequestIpl("ex_dt1_02_office_01a")	-- Old Spice Warm
-	-- RequestIpl("ex_dt1_02_office_01b")	-- Old Spice Classical
-	-- RequestIpl("ex_dt1_02_office_01c")	-- Old Spice Vintage
-	RequestIpl("ex_dt1_02_office_02a")	-- Executive Contrast
-	-- RequestIpl("ex_dt1_02_office_02b")	-- Executive Rich
-	-- RequestIpl("ex_dt1_02_office_02c")	-- Executive Cool
-	RequestIpl("ex_dt1_02_office_03a")	-- Power Broker Ice
-	-- RequestIpl("ex_dt1_02_office_03b")	-- Power Broker Conservative
-	-- RequestIpl("ex_dt1_02_office_03c")	-- Power Broker Polished
+	--
 
+	-- RequestIpl("ex_dt1_02_office_01a")	-- Old Spice: Warm
+	RequestIpl("ex_dt1_02_office_01b")	-- Old Spice: Classical
+	-- RequestIpl("ex_dt1_02_office_01c")	-- Old Spice: Vintage
+
+	-- RequestIpl("ex_dt1_02_office_02a")	-- Executive: Contrast
+	-- RequestIpl("ex_dt1_02_office_02b")	-- Executive: Rich
+	-- RequestIpl("ex_dt1_02_office_02c")	-- Executive: Cool
+
+	-- RequestIpl("ex_dt1_02_office_03a")	-- Power Broker: Ice
+	-- RequestIpl("ex_dt1_02_office_03b")	-- Power Broker: Conservative
+	-- RequestIpl("ex_dt1_02_office_03c")	-- Power Broker: Polished
+
+	--
 	-- Maze Bank Building: -75.49827, -827.1889, 243.386
-	RequestIpl("ex_dt1_11_office_01a")	-- Old Spice Warm
-	-- RequestIpl("ex_dt1_11_office_01b")	-- Old Spice Classical
-	-- RequestIpl("ex_dt1_11_office_01c")	-- Old Spice Vintage
-	RequestIpl("ex_dt1_11_office_02b")	-- Executive Rich
-	-- RequestIpl("ex_dt1_11_office_02c")	-- Executive Cool
-	-- RequestIpl("ex_dt1_11_office_02a")	-- Executive Contrast
-	RequestIpl("ex_dt1_11_office_03a")	-- Power Broker Ice
-	-- RequestIpl("ex_dt1_11_office_03b")	-- Power Broker Conservative
-	-- RequestIpl("ex_dt1_11_office_03c")	-- Power Broker Polished
+	--
 
+	-- RequestIpl("ex_dt1_11_office_01a")	-- Old Spice: Warm
+	RequestIpl("ex_dt1_11_office_01b")	-- Old Spice: Classical
+	-- RequestIpl("ex_dt1_11_office_01c")	-- Old Spice: Vintage
+
+	-- RequestIpl("ex_dt1_11_office_02b")	-- Executive: Rich
+	-- RequestIpl("ex_dt1_11_office_02c")	-- Executive: Cool
+	-- RequestIpl("ex_dt1_11_office_02a")	-- Executive: Contrast
+
+	-- RequestIpl("ex_dt1_11_office_03a")	-- Power Broker: Ice
+	-- RequestIpl("ex_dt1_11_office_03b")	-- Power Broker: Conservative
+	-- RequestIpl("ex_dt1_11_office_03c")	-- Power Broker: Polished
+
+	--
 	-- Lom Bank: -1579.756, -565.0661, 108.523
-	RequestIpl("ex_sm_13_office_01a")	-- Old Spice Warm
-	-- RequestIpl("ex_sm_13_office_01b")	-- Old Spice Classical
-	-- RequestIpl("ex_sm_13_office_01c")	-- Old Spice Vintage
-	RequestIpl("ex_sm_13_office_02a")	-- Executive Contrast
-	-- RequestIpl("ex_sm_13_office_02b")	-- Executive Rich
-	-- RequestIpl("ex_sm_13_office_02c")	-- Executive Cool
-	RequestIpl("ex_sm_13_office_03a")	-- Power Broker Ice
-	-- RequestIpl("ex_sm_13_office_03b")	-- Power Broker Conservative
-	-- RequestIpl("ex_sm_13_office_03c")	-- Power Broker Polished
+	--
 
+	-- RequestIpl("ex_sm_13_office_01a")	-- Old Spice: Warm
+	RequestIpl("ex_sm_13_office_01b")	-- Old Spice: Classical
+	-- RequestIpl("ex_sm_13_office_01c")	-- Old Spice: Vintage
+	-- RequestIpl("ex_sm_13_office_02a")	-- Executive: Contrast
+	-- RequestIpl("ex_sm_13_office_02b")	-- Executive: Rich
+	-- RequestIpl("ex_sm_13_office_02c")	-- Executive: Cool
+	-- RequestIpl("ex_sm_13_office_03a")	-- Power Broker: Ice
+	-- RequestIpl("ex_sm_13_office_03b")	-- Power Broker: Conservative
+	-- RequestIpl("ex_sm_13_office_03c")	-- Power Broker: Polished
+
+	--
 	-- Maze Bank West: -1392.667, -480.4736, 72.04217
-	RequestIpl("ex_sm_15_office_01a")	-- Old Spice Warm
-	-- RequestIpl("ex_sm_15_office_01b")	-- Old Spice Classical
-	-- RequestIpl("ex_sm_15_office_01c")	-- Old Spice Vintage
-	RequestIpl("ex_sm_15_office_02b")	-- Executive Rich
-	-- RequestIpl("ex_sm_15_office_02c")	-- Executive Cool
-	-- RequestIpl("ex_sm_15_office_02a")	-- Executive Contrast
-	RequestIpl("ex_sm_15_office_03a")	-- Power Broker Ice
-	-- RequestIpl("ex_sm_15_office_03b")	-- Power Broker Convservative
-	-- RequestIpl("ex_sm_15_office_03c")	-- Power Broker Polished
+	--
+
+	-- RequestIpl("ex_sm_15_office_01a")	-- Old Spice: Warm
+	RequestIpl("ex_sm_15_office_01b")	-- Old Spice: Classical
+	-- RequestIpl("ex_sm_15_office_01c")	-- Old Spice: Vintage
+	-- RequestIpl("ex_sm_15_office_02b")	-- Executive: Rich
+	-- RequestIpl("ex_sm_15_office_02c")	-- Executive: Cool
+	-- RequestIpl("ex_sm_15_office_02a")	-- Executive: Contrast
+	-- RequestIpl("ex_sm_15_office_03a")	-- Power Broker: Ice
+	-- RequestIpl("ex_sm_15_office_03b")	-- Power Broker: Convservative
+	-- RequestIpl("ex_sm_15_office_03c")	-- Power Broker: Polished
 
 
 	-- Modern 1 Apartment: -786.8663, 315.7642, 217.6385
 	RequestIpl("apa_v_mp_h_01_a")
-	
 	-- Modern 2 Apartment: -786.9563, 315.6229, 187.9136
 	RequestIpl("apa_v_mp_h_01_c")
-
 	-- Modern 3 Apartment: -774.0126, 342.0428, 196.6864
 	RequestIpl("apa_v_mp_h_01_b")
 
 	-- Mody 1 Apartment: -787.0749, 315.8198, 217.6386
 	RequestIpl("apa_v_mp_h_02_a")
-
 	-- Mody 2 Apartment: -786.8195, 315.5634, 187.9137
 	RequestIpl("apa_v_mp_h_02_c")
-
 	-- Mody 3 Apartment: -774.1382, 342.0316, 196.686
 	RequestIpl("apa_v_mp_h_02_b")
 
 	-- Vibrant 1 Apartment: -786.6245, 315.6175, 217.6385
 	RequestIpl("apa_v_mp_h_03_a")
-
 	-- Vibrant 2 Apartment: -786.9584, 315.7974, 187.9135
 	RequestIpl("apa_v_mp_h_03_c")
-
 	-- Vibrant 3 Apartment: -774.0223, 342.1718, 196.6863
 	RequestIpl("apa_v_mp_h_03_b")
 
 	-- Sharp 1 Apartment: -787.0902, 315.7039, 217.6384
 	RequestIpl("apa_v_mp_h_04_a")
-
 	-- Sharp 2 Apartment: -787.0155, 315.7071, 187.9135
 	RequestIpl("apa_v_mp_h_04_c")
-
 	-- Sharp 3 Apartment: -773.8976, 342.1525, 196.6863
 	RequestIpl("apa_v_mp_h_04_b")
 
 	-- Monochrome 1 Apartment: -786.9887, 315.7393, 217.6386
 	RequestIpl("apa_v_mp_h_05_a")
-
 	-- Monochrome 2 Apartment: -786.8809, 315.6634, 187.9136
 	RequestIpl("apa_v_mp_h_05_c")
-
 	-- Monochrome 3 Apartment: -774.0675, 342.0773, 196.6864
 	RequestIpl("apa_v_mp_h_05_b")
 
 	-- Seductive 1 Apartment: -787.1423, 315.6943, 217.6384
 	RequestIpl("apa_v_mp_h_06_a")
-
 	-- Seductive 2 Apartment: -787.0961, 315.815, 187.9135
 	RequestIpl("apa_v_mp_h_06_c")
-
 	-- Seductive 3 Apartment: -773.9552, 341.9892, 196.6862
 	RequestIpl("apa_v_mp_h_06_b")
 
 	-- Regal 1 Apartment: -787.029, 315.7113, 217.6385
 	RequestIpl("apa_v_mp_h_07_a")
-
 	-- Regal 2 Apartment: -787.0574, 315.6567, 187.9135
 	RequestIpl("apa_v_mp_h_07_c")
-
 	-- Regal 3 Apartment: -774.0109, 342.0965, 196.6863
 	RequestIpl("apa_v_mp_h_07_b")
 
 	-- Aqua 1 Apartment: -786.9469, 315.5655, 217.6383
 	RequestIpl("apa_v_mp_h_08_a")
-
 	-- Aqua 2 Apartment: -786.9756, 315.723, 187.9134
 	RequestIpl("apa_v_mp_h_08_c")
-
 	-- Aqua 3 Apartment: -774.0349, 342.0296, 196.6862
 	RequestIpl("apa_v_mp_h_08_b")
 
@@ -326,7 +328,7 @@ function RequestAllIpls()
 	-- Warehouse Large: 1006.967, -3102.079, -39.0035
 	RequestIpl("ex_exec_warehouse_placement_interior_2_int_warehouse_l_dlc_milo")
 
-	-- Import / Export Garages: 994.5925, -3002.594, -39.64699
+	-- Import / Export Garage: 994.5925, -3002.594, -39.64699
 	RequestIpl("imp_impexp_interior_placement")
 	RequestIpl("imp_impexp_interior_placement_interior_0_impexp_int_01_milo_")
 	RequestIpl("imp_impexp_interior_placement_interior_1_impexp_intwaremed_milo_")
