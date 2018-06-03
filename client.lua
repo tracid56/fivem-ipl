@@ -27,28 +27,28 @@ end
 -- IPL list 1.0.1290: https://pastebin.com/iNGLY32D
 -- Extra IPL info: https://pastebin.com/SE5t8CnE
 function RequestAllIpls()
-	-- Simeon: -47.16170 -1115.3327 26.5
+	-- Simeon: -47.162, -1115.333, 26.5
 	RequestIpl("shr_int")
 
-	-- Trevor: 1985.48132, 3828.76757, 32.5
+	-- Trevor: 1985.481, 3828.768, 32.5
 	-- Trash or Tidy. Only choose one.
 	RequestIpl("TrevorsTrailerTrash")
 	--RequestIpl("TrevorsTrailerTidy")
 
-	-- Vangelico Jewelry Store: -637.20159, -239.16250, 38.1
+	-- Vangelico Jewelry Store: -637.202, -239.163, 38.1
 	RequestIpl("post_hiest_unload")
 
-	-- Max Renda: -585.8247, -282.72, 35.45475
+	-- Max Renda: -585.825, -282.72, 35.455
 	RequestIpl("refit_unload")
 
-	-- Heist Union Depository: 2.69689322, -667.0166, 16.1306286
+	-- Heist Union Depository: 2.697, -667.017, 16.130
 	RequestIpl("FINBANK")
 
-	-- Morgue: 239.75195, -1360.64965, 39.53437
+	-- Morgue: 239.752, -1360.650, 39.534
 	RequestIpl("Coroner_Int_on")
 	RequestIpl("coronertrash")
 
-	-- Cluckin Bell: -146.3837, 6161.5, 30.2062
+	-- Cluckin Bell: -146.384, 6161.5, 30.2
 	RequestIpl("CS1_02_cf_onmission1")
 	RequestIpl("CS1_02_cf_onmission2")
 	RequestIpl("CS1_02_cf_onmission3")
@@ -61,7 +61,7 @@ function RequestAllIpls()
 	RequestIpl("farm_props")
 	RequestIpl("des_farmhouse")
 
-	-- FIB lobby: 105.4557, -745.4835, 44.7548
+	-- FIB lobby: 105.456, -745.484, 44.755
 	RequestIpl("FIBlobby")
 
 	-- Billboard: iFruit
@@ -85,35 +85,36 @@ function RequestAllIpls()
 	-- Carwash: 55.7, -1391.3, 30.5
 	RequestIpl("Carwash_with_spinners")
 
-	-- Stadium "Fame or Shame": -248.4916, -2010.509, 34.5743
+	-- Stadium "Fame or Shame": -248.492, -2010.509, 34.574
 	RequestIpl("sp1_10_real_interior")
 	RequestIpl("sp1_10_real_interior_lod")
 
-	-- House in Banham Canyon: -3086.428, 339.2523, 6.3717
+	-- House in Banham Canyon: -3086.428, 339.252, 6.372
 	RequestIpl("ch1_02_open")
 
-	-- Garage in La Mesa (autoshop): 970.27453, -1826.56982, 31.11477
+	-- Garage in La Mesa (autoshop): 970.275, -1826.570, 31.115
 	RequestIpl("bkr_bi_id1_23_door")
 
-	-- Hill Valley church - Grave: -282.4638, 2835.845, 55.91446
+	-- Hill Valley church - Grave: -282.464, 2835.845, 55.914
 	RequestIpl("lr_cs6_08_grave_closed")
 
-	-- Lost's trailer park: 49.49379, 3744.472, 46.38629
+	-- Lost's trailer park: 49.494, 3744.472, 46.386
 	RequestIpl("methtrailer_grp1")
 
-	-- Lost safehouse: 984.1552, -95.3662, 74.50
+	-- Lost safehouse: 984.155, -95.366, 74.50
 	RequestIpl("bkr_bi_hw1_13_int")
 
 	-- Raton Canyon river: -1652.83, 4445.28, 2.52
 	RequestIpl("CanyonRvrShallow")
 
-	-- Zancudo Gates (GTAO like): -1600.301, 2806.731, 18.7968
+	-- Zancudo Gates (GTAO like): -1600.301, 2806.731, 18.797
 	RequestIpl("CS3_07_MPGates")
 
-	-- Pillbox hospital:
-	RequestIpl("rc12b_default")
+	-- Pillbox hospital: 356.8, -590.1, 43.3
+	RequestIpl("RC12B_Default")
+	-- RequestIpl("RC12B_Fixed")
 
-	-- Josh's house: -1117.1632080078, 303.090698, 66.52217
+	-- Josh's house: -1117.163, 303.1, 66.522
 	RequestIpl("bh1_47_joshhse_unburnt")
 	RequestIpl("bh1_47_joshhse_unburnt_lod")
 
@@ -123,7 +124,7 @@ function RequestAllIpls()
 	RequestIpl("cs3_05_water_grp2")
 	RequestIpl("cs3_05_water_grp2_lod")
 
-	-- Cassidy Creek (need streamed content): -425.677, 4433.404, 27.3253
+	-- Cassidy Creek (need streamed content): -425.677, 4433.404, 27.325
 	RequestIpl("canyonriver01")
 	RequestIpl("canyonriver01_lod")
 
@@ -132,7 +133,7 @@ function RequestAllIpls()
 	RequestIpl("cs5_04_mazebillboardgraffiti") -- 2697.32, 3162.18, 58.1
 	RequestIpl("cs5_roads_ronoilgraffiti") -- 2119.12, 3058.21, 53.25
 	
-	-- Heist Carrier: 3082.3117 -4717.1191 15.2622
+	-- Heist Carrier: 3082.312 -4717.119 15.262
 	RequestIpl("hei_carrier")
 	RequestIpl("hei_carrier_distantlights")
 	RequestIpl("hei_Carrier_int1")
@@ -154,16 +155,16 @@ function RequestAllIpls()
 	RequestIpl("hei_yacht_heist_LODLights")
 	RequestIpl("hei_yacht_heist_Lounge")
 
-	-- Bahama Mamas: -1388.0013, -618.41967, 30.819599
+	-- Bahama Mamas: -1388, -618.420, 30.820
 	--RequestIpl("hei_sm_16_interior_v_bahama_milo_")
 
-	-- Red Carpet: 300.5927, 199.7589, 104.3776
+	-- Red Carpet: 300.593, 199.759, 104.378
 	--RequestIpl("redCarpet")
 
 	-- UFO
-	-- Zancudo: -2051.99463, 3237.05835, 1456.97021
-	-- Hippie base: 2490.47729, 3774.84351, 2414.035
-	-- Chiliad: 501.52880000, 5593.86500000, 796.23250000
+	-- Zancudo: -2052, 3237, 1457
+	-- Hippie base: 2490.5, 3774.8, 2414
+	-- Chiliad: 501.53, 5593.86, 796.23
 	-- RequestIpl("ufo")
 	-- RequestIpl("ufo_eye")
 	-- RequestIpl("ufo_lod")
@@ -174,7 +175,7 @@ function RequestAllIpls()
 	--
 
 	--
-	-- Arcadius Business Centre: -141.2896, -620.9618, 168.8204
+	-- Arcadius Business Centre: -141.29, -621, 169
 	--
 
 	-- RequestIpl("ex_dt1_02_office_01a")	-- Old Spice: Warm
@@ -190,7 +191,7 @@ function RequestAllIpls()
 	-- RequestIpl("ex_dt1_02_office_03c")	-- Power Broker: Polished
 
 	--
-	-- Maze Bank Building: -75.49827, -827.1889, 243.386
+	-- Maze Bank Building: -75.498, -827.189, 243.386
 	--
 
 	-- RequestIpl("ex_dt1_11_office_01a")	-- Old Spice: Warm
@@ -206,7 +207,7 @@ function RequestAllIpls()
 	-- RequestIpl("ex_dt1_11_office_03c")	-- Power Broker: Polished
 
 	--
-	-- Lom Bank: -1579.756, -565.0661, 108.523
+	-- Lom Bank: -1579.756, -565.066, 108.523
 	--
 
 	-- RequestIpl("ex_sm_13_office_01a")	-- Old Spice: Warm
@@ -220,7 +221,7 @@ function RequestAllIpls()
 	-- RequestIpl("ex_sm_13_office_03c")	-- Power Broker: Polished
 
 	--
-	-- Maze Bank West: -1392.667, -480.4736, 72.04217
+	-- Maze Bank West: -1392.667, -480.474, 72.042
 	--
 
 	-- RequestIpl("ex_sm_15_office_01a")	-- Old Spice: Warm
@@ -234,101 +235,101 @@ function RequestAllIpls()
 	-- RequestIpl("ex_sm_15_office_03c")	-- Power Broker: Polished
 
 
-	-- Modern 1 Apartment: -786.8663, 315.7642, 217.6385
+	-- Modern 1 Apartment: -786.866, 315.764, 217.638
 	RequestIpl("apa_v_mp_h_01_a")
-	-- Modern 2 Apartment: -786.9563, 315.6229, 187.9136
+	-- Modern 2 Apartment: -786.956, 315.622, 187.913
 	RequestIpl("apa_v_mp_h_01_c")
-	-- Modern 3 Apartment: -774.0126, 342.0428, 196.6864
+	-- Modern 3 Apartment: -774.012, 342.042, 196.686
 	RequestIpl("apa_v_mp_h_01_b")
 
-	-- Mody 1 Apartment: -787.0749, 315.8198, 217.6386
+	-- Mody 1 Apartment: -787.074, 315.819, 217.638
 	RequestIpl("apa_v_mp_h_02_a")
-	-- Mody 2 Apartment: -786.8195, 315.5634, 187.9137
+	-- Mody 2 Apartment: -786.819, 315.563, 187.913
 	RequestIpl("apa_v_mp_h_02_c")
-	-- Mody 3 Apartment: -774.1382, 342.0316, 196.686
+	-- Mody 3 Apartment: -774.138, 342.031, 196.686
 	RequestIpl("apa_v_mp_h_02_b")
 
-	-- Vibrant 1 Apartment: -786.6245, 315.6175, 217.6385
+	-- Vibrant 1 Apartment: -786.624, 315.617, 217.638
 	RequestIpl("apa_v_mp_h_03_a")
-	-- Vibrant 2 Apartment: -786.9584, 315.7974, 187.9135
+	-- Vibrant 2 Apartment: -786.958, 315.797, 187.913
 	RequestIpl("apa_v_mp_h_03_c")
-	-- Vibrant 3 Apartment: -774.0223, 342.1718, 196.6863
+	-- Vibrant 3 Apartment: -774.022, 342.171, 196.686
 	RequestIpl("apa_v_mp_h_03_b")
 
-	-- Sharp 1 Apartment: -787.0902, 315.7039, 217.6384
+	-- Sharp 1 Apartment: -787.090, 315.703, 217.638
 	RequestIpl("apa_v_mp_h_04_a")
-	-- Sharp 2 Apartment: -787.0155, 315.7071, 187.9135
+	-- Sharp 2 Apartment: -787.015, 315.707, 187.913
 	RequestIpl("apa_v_mp_h_04_c")
-	-- Sharp 3 Apartment: -773.8976, 342.1525, 196.6863
+	-- Sharp 3 Apartment: -773.897, 342.152, 196.686
 	RequestIpl("apa_v_mp_h_04_b")
 
-	-- Monochrome 1 Apartment: -786.9887, 315.7393, 217.6386
+	-- Monochrome 1 Apartment: -786.988, 315.739, 217.638
 	RequestIpl("apa_v_mp_h_05_a")
-	-- Monochrome 2 Apartment: -786.8809, 315.6634, 187.9136
+	-- Monochrome 2 Apartment: -786.880, 315.663, 187.913
 	RequestIpl("apa_v_mp_h_05_c")
-	-- Monochrome 3 Apartment: -774.0675, 342.0773, 196.6864
+	-- Monochrome 3 Apartment: -774.067, 342.077, 196.686
 	RequestIpl("apa_v_mp_h_05_b")
 
-	-- Seductive 1 Apartment: -787.1423, 315.6943, 217.6384
+	-- Seductive 1 Apartment: -787.142, 315.694, 217.638
 	RequestIpl("apa_v_mp_h_06_a")
-	-- Seductive 2 Apartment: -787.0961, 315.815, 187.9135
+	-- Seductive 2 Apartment: -787.096, 315.81, 187.913
 	RequestIpl("apa_v_mp_h_06_c")
-	-- Seductive 3 Apartment: -773.9552, 341.9892, 196.6862
+	-- Seductive 3 Apartment: -773.955, 341.989, 196.686
 	RequestIpl("apa_v_mp_h_06_b")
 
-	-- Regal 1 Apartment: -787.029, 315.7113, 217.6385
+	-- Regal 1 Apartment: -787.029, 315.711, 217.638
 	RequestIpl("apa_v_mp_h_07_a")
-	-- Regal 2 Apartment: -787.0574, 315.6567, 187.9135
+	-- Regal 2 Apartment: -787.057, 315.656, 187.913
 	RequestIpl("apa_v_mp_h_07_c")
-	-- Regal 3 Apartment: -774.0109, 342.0965, 196.6863
+	-- Regal 3 Apartment: -774.010, 342.096, 196.686
 	RequestIpl("apa_v_mp_h_07_b")
 
-	-- Aqua 1 Apartment: -786.9469, 315.5655, 217.6383
+	-- Aqua 1 Apartment: -786.946, 315.565, 217.638
 	RequestIpl("apa_v_mp_h_08_a")
-	-- Aqua 2 Apartment: -786.9756, 315.723, 187.9134
+	-- Aqua 2 Apartment: -786.975, 315.723, 187.913
 	RequestIpl("apa_v_mp_h_08_c")
-	-- Aqua 3 Apartment: -774.0349, 342.0296, 196.6862
+	-- Aqua 3 Apartment: -774.034, 342.029, 196.686
 	RequestIpl("apa_v_mp_h_08_b")
 
 	--
 	-- Bunkers, Biker clubhouses & Warehouses
 	--
 
-	-- Clubhouse 1: 1107.04, -3157.399, -37.51859
+	-- Clubhouse 1: 1107.04, -3157.399, -37.519
 	RequestIpl("bkr_biker_interior_placement_interior_0_biker_dlc_int_01_milo")
 
-	-- Clubhouse 2: 998.4809, -3164.711, -38.90733
+	-- Clubhouse 2: 998.4809, -3164.711, -38.907
 	RequestIpl("bkr_biker_interior_placement_interior_1_biker_dlc_int_02_milo")
 
-	-- Warehouse 1: 1009.5, -3196.6, -38.99682
+	-- Warehouse 1: 1009.5, -3196.6, -39
 	RequestIpl("bkr_biker_interior_placement_interior_2_biker_dlc_int_ware01_milo")
 	RequestIpl("bkr_biker_interior_placement_interior_2_biker_dlc_int_ware02_milo")
 	RequestIpl("bkr_biker_interior_placement_interior_2_biker_dlc_int_ware03_milo")
 	RequestIpl("bkr_biker_interior_placement_interior_2_biker_dlc_int_ware04_milo")
 	RequestIpl("bkr_biker_interior_placement_interior_2_biker_dlc_int_ware05_milo")
 
-	-- Warehouse 2: 1051.491, -3196.536, -39.14842
+	-- Warehouse 2: 1051.491, -3196.536, -39.148
 	RequestIpl("bkr_biker_interior_placement_interior_3_biker_dlc_int_ware02_milo")
 
-	-- Warehouse 3: 1093.6, -3196.6, -38.99841
+	-- Warehouse 3: 1093.6, -3196.6, -38.998
 	RequestIpl("bkr_biker_interior_placement_interior_4_biker_dlc_int_ware03_milo")
 
 	-- Warehouse 4: 1121.897, -3195.338, -40.4025
 	RequestIpl("bkr_biker_interior_placement_interior_5_biker_dlc_int_ware04_milo")
 
-	-- Warehouse 5: 1165, -3196.6, -39.01306
+	-- Warehouse 5: 1165, -3196.6, -39.013
 	RequestIpl("bkr_biker_interior_placement_interior_6_biker_dlc_int_ware05_milo")
 
-	-- Warehouse Small: 1094.988, -3101.776, -39.00363
+	-- Warehouse Small: 1094.988, -3101.776, -39
 	RequestIpl("ex_exec_warehouse_placement_interior_1_int_warehouse_s_dlc_milo")
 
-	-- Warehouse Medium: 1056.486, -3105.724, -39.00439)
+	-- Warehouse Medium: 1056.486, -3105.724, -39
 	RequestIpl("ex_exec_warehouse_placement_interior_0_int_warehouse_m_dlc_milo")
 
 	-- Warehouse Large: 1006.967, -3102.079, -39.0035
 	RequestIpl("ex_exec_warehouse_placement_interior_2_int_warehouse_l_dlc_milo")
 
-	-- Import / Export Garage: 994.5925, -3002.594, -39.64699
+	-- Import / Export Garage: 994.593, -3002.594, -39.647
 	RequestIpl("imp_impexp_interior_placement")
 	RequestIpl("imp_impexp_interior_placement_interior_0_impexp_int_01_milo_")
 	RequestIpl("imp_impexp_interior_placement_interior_1_impexp_intwaremed_milo_")
@@ -369,7 +370,7 @@ function RequestAllIpls()
 	RequestIpl("gr_case10_bunkerclosed") -- -3058.714, 3329.19, 12.5844
 	RequestIpl("gr_case11_bunkerclosed") -- -3180.466, 1374.192, 19.9597
 	
-	-- Bunkers: Interior: 892.6384, -3245.8664, -98.2645
+	-- Bunkers: Interior: 892.638, -3245.866, -98.265
 	--[[
 	RequestIpl("gr_entrance_placement")
 	RequestIpl("gr_grdlc_interior_placement")
@@ -377,7 +378,7 @@ function RequestAllIpls()
 	RequestIpl("gr_grdlc_interior_placement_interior_1_grdlc_int_02_milo_")
 	--]]
 
-	-- North Yankton: 3217.697, -4834.826, 111.8152
+	-- North Yankton: 3217.697, -4834.826, 111.815
 	--[[
 	RequestIpl("prologue01")
 	RequestIpl("prologue01c")
