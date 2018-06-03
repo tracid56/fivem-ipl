@@ -54,7 +54,7 @@ function RequestAllIpls()
 	RequestIpl("CS1_02_cf_onmission3")
 	RequestIpl("CS1_02_cf_onmission4")
 
-	-- Grapeseed's farm: 2447.9, 4973.4, 47.7
+	-- Grapeseed Cow Farm: 2447.9, 4973.4, 47.7
 	RequestIpl("farm")
 	RequestIpl("farmint")
 	RequestIpl("farm_lod")
@@ -133,7 +133,7 @@ function RequestAllIpls()
 	RequestIpl("cs5_04_mazebillboardgraffiti") -- 2697.32, 3162.18, 58.1
 	RequestIpl("cs5_roads_ronoilgraffiti") -- 2119.12, 3058.21, 53.25
 	
-	-- Heist Carrier: 3082.312 -4717.119 15.262
+	-- Aircraft Carrier (USS Luxington): 3082.312 -4717.119 15.262
 	RequestIpl("hei_carrier")
 	RequestIpl("hei_carrier_distantlights")
 	RequestIpl("hei_Carrier_int1")
@@ -145,7 +145,7 @@ function RequestAllIpls()
 	RequestIpl("hei_carrier_lodlights")
 	RequestIpl("hei_carrier_slod")
 
-	-- Heist Yatch: -2043.974,-1031.582, 11.981
+	-- Galaxy Super Yacht: -2043.974,-1031.582, 11.981
 	RequestIpl("hei_yacht_heist")
 	RequestIpl("hei_yacht_heist_Bar")
 	RequestIpl("hei_yacht_heist_Bedrm")
